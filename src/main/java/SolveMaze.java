@@ -39,6 +39,15 @@ public class SolveMaze {
             // Implement your maze solving algorithm here
             //while (!maze.isFinished()) {
 
+
+            try {
+                Thread.sleep(250);
+                System.out.println(maze);
+            }
+            catch (Exception e) {
+
+            }
+
             if (maze.isFinished()) {
                 break;
             }
